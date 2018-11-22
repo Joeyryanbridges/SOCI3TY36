@@ -1,0 +1,29 @@
+body.centerImg{
+    background: url('../images/SOCI3TY36trans4.png') no-repeat center fixed;
+    background-size: 56%;
+    background-color: lightgrey; 
+  }
+
+  .container{
+      position: relative;
+  }
+
+  img.wolf{
+      width: 100%; 
+  }
+
+  .form1 {
+      padding: 20px 20px 20px 20px;
+  }
+
+  .bd-example-modal-sm{
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+ .btn-outline-dark{
+     border: gray;
+     margin-top: 20%; 
+     margin-left:10%;
+ }
