@@ -8,6 +8,10 @@ body.centerImg{
       position: relative;
   }
 
+  .nav-link{
+      color: black;
+  }
+
   img.wolf{
       width: 100%; 
   }
