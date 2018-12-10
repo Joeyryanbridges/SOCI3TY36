@@ -47,23 +47,3 @@ function draw() {
 
 setInterval(draw, 45);
 
-
-
-
-var signUpForm = document.getElementById('signUpForm');
-var emailField = document.getElementById('emailField');
-var okButton = document.getElementById('okButton');
-
-emailField.addEventListener('keyup', function (event) {
-    isValidEmail = emailField.checkValidity();
-
-    if (isValidEmail) {
-        okButton.disabled = false;
-    } else {
-        okButton.disabled = true;
-    }
-});
-
-okButton.addEventListener('click', function (event) {
-    signUpForm.submit();
-});

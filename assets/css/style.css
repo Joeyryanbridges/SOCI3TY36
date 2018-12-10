@@ -7,13 +7,21 @@ body{
     left:0;
     top:0;
     z-index:-1;
-    opacity: 0.5
+    opacity: 0.1;
   }
 
  body.centerImg{
     background: url('../images/SOCI3TY36trans4.png') no-repeat center fixed;
     background-size: 56%;
     background-color: lightgrey; 
+    opacity: 1;
+  }
+
+  .center {
+    margin: auto;
+    margin-top: 12%;
+    width: 50%;
+    padding: 10px;
   }
 
 form {
