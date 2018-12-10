@@ -18,16 +18,20 @@ body{
     opacity: 1;
  }
 
-  button.btn-outline-dark.open {
-    color: white;
-    /* background-color: white; */
-    border-color: transparent;
-    margin-left: 58.5%;
-    margin-top: 35%;
+ button.btn-outline-dark.open {
+  color: white;
+  background-color: #4c4c4cad;
+  border-color: transparent;
+  margin-left: 58.5%;
+  margin-top: 35%;
 }
-  
-  h5#exampleModalLabel.modal-title {
-    margin-right: -270%;
+
+div.modal-content {
+opacity: 0.85;
+} 
+
+h2#exampleModalLabel.modal-title {
+  margin-right: -87%;
 }
 
   .center {

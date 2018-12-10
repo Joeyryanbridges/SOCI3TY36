@@ -15,7 +15,7 @@
     <title>Society36</title>
 </head>
 
-<body class="centerImg" alt="S36" data-toggle="modal" data-target=".bd-example-modal-sm ">
+<body class="centerImg animated fadeIn delay-2s" alt="S36" data-toggle="modal" data-target=".bd-example-modal-sm ">
     <!--backgroud-->
     <canvas id="c"></canvas>
 
@@ -31,18 +31,25 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <center>
-                        <h5 class="modal-title" id="exampleModalLabel">Join The Pack</h5>
+                        <h2 class="modal-title" id="exampleModalLabel">Join The Movement</h2>
                     </center>
+
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    ...
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">By giving us your email address, you will
+                            recieve an email for ....</small>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
                 </div>
             </div>
         </div>
