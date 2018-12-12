@@ -14,17 +14,16 @@ body{
  body.centerImg{
     background: url('../images/SOCI3TY36trans4.png') no-repeat center fixed;
     background-size: 56%;
-    background-color: lightgrey; 
+    background-color: white; 
     opacity: 1;
  }
 
  button.btn-outline-dark.open {
   color: white;
-  background-color: #4c4c4cad;
-  border-color: transparent;
-  margin-left: 58.5%;
+  font-family: 'Cinzel', serif;
+  margin-left: 41.5%;
   margin-top: 35%;
-}
+ }
 
 div.modal-content {
 opacity: 0.85;
