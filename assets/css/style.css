@@ -166,7 +166,33 @@ div#exampleModal.modal.fade.center.show {
   
   /* iPhone 6, 7, 8 ----------- */
   @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
-  /* Styles */
+    body.centerImg {
+      background: url(../images/SOCI3TY36trans4.png) no-repeat center fixed;
+      background-size: 125%;
+      padding-left: 21%;
+      background-color: white;
+      opacity: 1;
+  }
+    canvas#c {
+      position: absolute;
+      left: 0px;
+      top: 0;
+      z-index: -1;
+      opacity: 0.1;
+  }
+  button.btn-outline-dark.open {
+    color: white;
+    font-family: 'Cinzel', serif;
+    margin-left: 46.5%;
+    margin-top: 37%;
+   }
+   div.modal-content {
+    opacity: 0.85;
+    margin-bottom: 10px;
+    } 
+    div#exampleModal.modal.fade.center.show {
+      margin-top: 28px;
+    }
   }
   
   @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
